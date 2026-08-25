@@ -29,4 +29,30 @@ public class Funcionario {
                 ", Salario com desconto= '" + this.calcularDesconto() + "'" +
                 '}';
     }
+    public String getNome() {
+        return nome;
+    }
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+    public String getMatricula() {
+        return matricula;
+    }
+    public void setMatricula(String matricula) {
+        this.matricula = matricula;
+    }
+    public double getSalarioBase() {
+        return salarioBase;
+    }
+    public void setSalarioBase(double salarioBase) {
+        this.salarioBase = salarioBase;
+
+    }
+    public String getDataAdmissao() {
+        return dataAdmissao;
+    }
+    public void setDataAdmissao(String dataAdmissao) {
+        this.dataAdmissao = dataAdmissao;
+    }
+
 }

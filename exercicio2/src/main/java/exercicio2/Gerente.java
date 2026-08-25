@@ -36,5 +36,18 @@ public class Gerente extends FuncionarioCLT{
                 ", Salario com desconto= '" + this.calcularDesconto() + "'" +
                 '}';
     }
+    public int getTamanhoEquipe() {
+        return tamanhoEquipe;
+    }
+    public void setTamanhoEquipe(int tamanhoEquipe) {
+        this.tamanhoEquipe = tamanhoEquipe;
+    }
+    public double getPercentualBonus() {
+        return percentualBonus;
+    }
+    public void setPercentualBonus(double percentualBonus) {
+        this.percentualBonus = percentualBonus;
+    }
+
 
 }

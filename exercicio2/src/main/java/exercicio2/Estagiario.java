@@ -33,4 +33,16 @@ public class Estagiario extends Funcionario {
                 ", Salario com desconto= '" + this.calcularDesconto() + "'" +
                 '}';
     }
+    public double getValorBolsaAuxilio() {
+        return valorBolsaAuxilio;
+    }
+    public void setValorBolsaAuxilio(double valorBolsaAuxilio) {
+        this.valorBolsaAuxilio = valorBolsaAuxilio;
+    }
+    public double getCargaHorariaSemanal() {
+        return cargaHorariaSemanal;
+    }
+    public void setCargaHorariaSemanal(double cargaHorariaSemanal) {
+        this.cargaHorariaSemanal = cargaHorariaSemanal;
+    }
 }

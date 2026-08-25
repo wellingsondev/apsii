@@ -1,8 +1,8 @@
 package exercicio2;
 
 public class FuncionarioCLT extends Funcionario {
-    public double valeTransporte;
-    public double valeAlimentacao;
+    protected double valeTransporte;
+    protected double valeAlimentacao;
 
     public FuncionarioCLT(String nome, String matricula, double salarioBase, String dataAdmissao,  double valeTransporte, double valeAlimentacao) {
         super(nome, matricula, salarioBase, dataAdmissao);
@@ -31,6 +31,19 @@ public class FuncionarioCLT extends Funcionario {
                 ", Novo Salario= '" + this.calcularSalario() + '/' +
                 ", Salario com desconto= '" + this.calcularDesconto() + "'" +
                 '}';
+    }
+    public double getValeTransporte() {
+        return valeTransporte;
+    }
+    public void setValeTransporte(double valeTransporte) {
+        this.valeTransporte = valeTransporte;
+    }
+    public double getValeAlimentacao() {
+        return valeAlimentacao;
+
+    }
+    public void setValeAlimentacao(double valeAlimentacao) {
+        this.valeAlimentacao = valeAlimentacao;
     }
 
 
