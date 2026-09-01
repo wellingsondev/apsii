@@ -16,6 +16,7 @@ public class Principal {
         System.out.println("Digite o preço do livro:");
         livro.setPreco(sc.nextDouble());
         sc.nextLine();
+
         System.out.println("Digite o autor do livro:");
         livro.setAutor(sc.nextLine());
 
@@ -28,6 +29,9 @@ public class Principal {
         cd.setnumFaixas(sc.nextInt());
 
         System.out.println(cd.exibeInformacoes());
+
+        sc.close();
+
 
 
     }
