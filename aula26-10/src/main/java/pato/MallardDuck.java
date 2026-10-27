@@ -1,7 +1,7 @@
-package br.edu.unipe.apsii.pato;
+package pato;
 
-import br.edu.unipe.apsii.Flybehavior.FlyWithWings;
-import br.edu.unipe.apsii.QuackBehavior.Quack;
+import Flybehavior.FlyWithWings;
+import QuackBehavior.Quack;
 
 public class MallardDuck extends Pato {
 

@@ -1,4 +1,4 @@
-package br.edu.unipe.apsii.QuackBehavior;
+package QuackBehavior;
 
 public class Quack implements QuackBehavior {
     @Override

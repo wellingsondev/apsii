@@ -1,4 +1,4 @@
-package br.edu.unipe.apsii.QuackBehavior;
+package QuackBehavior;
 
 public interface QuackBehavior {
     public void quack();

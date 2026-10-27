@@ -1,4 +1,4 @@
-package br.edu.unipe.apsii.Flybehavior;
+package Flybehavior;
 
 public class FlyNoWay implements Flybehavior {
     public void fly() {

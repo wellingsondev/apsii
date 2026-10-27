@@ -1,6 +1,6 @@
-package br.edu.unipe.apsii.pato;
-import br.edu.unipe.apsii.Flybehavior.Flybehavior;
-import br.edu.unipe.apsii.QuackBehavior.QuackBehavior;
+package pato;
+import Flybehavior.Flybehavior;
+import QuackBehavior.QuackBehavior;
 
 
 public abstract class Pato {

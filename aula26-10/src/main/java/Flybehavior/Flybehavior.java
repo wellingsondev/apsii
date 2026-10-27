@@ -1,4 +1,4 @@
-package br.edu.unipe.apsii.Flybehavior;
+package Flybehavior;
 
 public interface Flybehavior {
     public void fly();

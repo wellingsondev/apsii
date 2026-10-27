@@ -1,7 +1,7 @@
-package br.edu.unipe.apsii.pato;
+package pato;
 
-import br.edu.unipe.apsii.Flybehavior.FlyNoWay;
-import br.edu.unipe.apsii.QuackBehavior.Quack;
+import Flybehavior.FlyNoWay;
+import QuackBehavior.Quack;
 
 public class ModelDuck extends Pato{
     public ModelDuck() {
