@@ -1,6 +1,8 @@
 package br.edu.unipe.apsii;
 
-import Pizza.Pizza;
+import pizza;
+import pizza.*;
+
 
 public class NYStylePizzaStore extends  PizzaStore{
 

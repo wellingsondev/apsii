@@ -1,4 +1,4 @@
-package Pizza;
+package pizza;
 
 import vegetais.*;
 
